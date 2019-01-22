@@ -1,0 +1,14 @@
+post_install() {
+  echo "To use this theme, add the following lines to /etc/sddm.conf.d/theme.conf:"
+  echo
+  echo "[Theme]"
+  echo "Current=blackhole"
+  echo
+  echo "Also probably a good idea to add the following to /etc/sddm.conf.d/hidpi.conf"
+  echo
+  echo "[Wayland]"
+  echo "EnableHiDPI=true"
+  echo
+  echo "[X11]"
+  echo "EnableHiDPI=true"
+}
